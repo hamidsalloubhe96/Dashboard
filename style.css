@@ -1,0 +1,81 @@
+body{
+    padding: 0 ;
+    margin: 0;
+    font-family: "Poppins", sans-serif; 
+}
+.contenair{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    align-content: center;
+    border-radius: 5px;
+}
+.box1{
+    height: 500px;
+    width: 30%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+    
+    
+    
+}
+.image-acceuil{
+   width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.box2{
+    height: 500px;
+    width: 30%;
+    background-color: rgb(158, 213, 231);
+    border-radius: 0 5px 5px 0;      
+}
+
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+   
+}
+
+input{
+    width: 270px;
+    height: 40px;
+    margin-left: 25px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+button{ 
+    border: 1px solid transparent;
+    height: 40px;
+    width: 275px;
+    border-radius:5px ;
+    align-content: center;
+    background-color: lightseagreen;
+    color:white;
+    text-align: center; 
+    margin-left: 25px;
+    cursor: pointer;
+    margin-top: 10px ;
+}
+
+h1,p{
+    text-align: center;
+    color:rgb(103, 100, 100);
+}
+h1{
+    margin-top: 60px;
+}
+button:hover{
+    background-color: rgb(170, 229, 202)
+}
